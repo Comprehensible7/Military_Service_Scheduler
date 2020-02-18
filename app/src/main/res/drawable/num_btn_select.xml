@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/ic_brightness_1_click_24dp"/>
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/ic_brightness_1_default_24dp"/>
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/ic_brightness_1_enable_24dp"/>
+    <item android:state_window_focused="true" android:state_enabled="true" android:drawable="@drawable/ic_brightness_1_default_24dp"/>
+
+
+</selector>

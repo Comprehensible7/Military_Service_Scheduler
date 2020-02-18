@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/menu_schedule" />
+        <item
+            android:id="@+id/nav_d_day"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/menu_d_day" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_list" />
+        <item
+            android:id="@+id/nav_mini_game"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_mini_game" />
+        <item
+            android:id="@+id/nav_my_page"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/menu_my_page" />
+
+    </group>
+
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorPrimary"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/schedule_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@style/AppTheme.TitleText"
+            app:subtitleTextAppearance="@style/AppTheme.SubTitleText" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.teamproject.calendarviewlib.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:content_background_color="#fff"
+        app:week_header_background_color="#fff"
+        app:week_header_text_color="?attr/colorPrimary"
+        app:current_day_circle_enable="true"
+        app:month_header_show="false"
+        app:week_header_movable="false"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:tint="#fff"
+        app:elevation="0dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

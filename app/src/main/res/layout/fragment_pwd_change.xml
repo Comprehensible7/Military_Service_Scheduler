@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/frag_pwd_change">
+
+    <TextView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:textSize="40sp"
+        android:text="비밀번호 변경" />
+
+
+    <EditText
+        android:id="@+id/my_page_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="비밀번호를 입력하세요."
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/my_page_pw_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="비밀번호를 한번 더 입력하세요."
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPassword" />
+</LinearLayout>
+

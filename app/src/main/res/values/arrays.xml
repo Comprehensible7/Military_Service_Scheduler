@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="grade_list">
+        <item>이병</item>
+        <item>일병</item>
+        <item>상병</item>
+        <item>병장</item>
+    </string-array>
+
+</resources>

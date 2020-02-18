@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/armyDecrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="복무일단축" />
+
+    <RadioGroup
+        android:id="@+id/radioArmyGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioArmy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="육군" />
+
+        <RadioButton
+            android:id="@+id/radioAirForce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="공군공익" />
+
+        <RadioButton
+            android:id="@+id/radioNavy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="해군" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입대(년)">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/editYear"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입대(월)">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editMonth"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입대(일)">
+        </TextView>
+
+        <EditText
+            android:id="@+id/editDay"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="">
+
+        </EditText>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="완료"
+        android:onClick="onFinish" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입대일  : ">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/inPutDate"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textoutput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="전역일  : ">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/outPutDate"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textdday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D-Day  :">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dDay"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진행도" />
+
+        <TextView
+            android:id="@+id/textPercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressArmy"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

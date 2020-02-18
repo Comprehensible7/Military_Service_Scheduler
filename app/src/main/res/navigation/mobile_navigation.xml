@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/blankFragment">
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.teamproject.aaaaan_2.ui.menu.PersonListFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_person_list" />
+
+    <fragment
+        android:id="@+id/nav_mini_game"
+        android:name="com.teamproject.aaaaan_2.ui.menu.MiniGameFragment"
+        android:label="@string/menu_mini_game"
+        tools:layout="@layout/fragment_mini_game" />
+
+    <fragment
+        android:id="@+id/nav_my_page"
+        android:name="com.teamproject.aaaaan_2.ui.menu.MyPageFragment"
+        android:label="@string/menu_my_page"
+        tools:layout="@layout/fragment_my_page" />
+
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.teamproject.aaaaan_2.ui.menu.ScheduleFragmentSDK21"
+        android:label="@string/menu_schedule"
+        tools:layout="@layout/fragment_schedule_sdk21" />
+
+    <fragment
+        android:id="@+id/nav_d_day"
+        android:name="com.teamproject.aaaaan_2.ui.menu.DdayFragment"
+        android:label="@string/menu_d_day"
+        tools:layout="@layout/fragment_d_day" />
+    <fragment
+        android:id="@+id/nav_first"
+        android:name="com.teamproject.aaaaan_2.ui.menu.FirstScreenFragment"
+        android:label="fragment_first_screen_fragment"
+        tools:layout="@layout/fragment_first_screen_fragment" />
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.teamproject.aaaaan_2.ui.menu.BlankFragment"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_blank" />
+</navigation>

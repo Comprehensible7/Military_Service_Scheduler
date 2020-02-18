@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar View Lib</string>
+    <string name="next_month">next month</string>
+    <string name="not_available">not available</string>
+    <string name="previous_month">previous month</string>
+    <style name="weekdayTextView">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:maxLines">1</item>
+
+    </style>
+    <declare-styleable name="CalendarView">
+        <attr format="color" name="content_background_color"/>
+        <attr format="color" name="month_header_background_color"/>
+        <attr format="color" name="month_header_text_color"/>
+        <attr format="color" name="month_header_arrows_color"/>
+        <attr format="boolean" name="month_header_show"/>
+        <attr format="color" name="week_header_background_color"/>
+        <attr format="color" name="week_header_text_color"/>
+        <attr format="color" name="week_header_offset_day_background_color"/>
+        <attr format="color" name="week_header_offset_day_text_color"/>
+        <attr format="boolean" name="week_header_movable"/>
+        <attr format="color" name="day_text_color"/>
+        <attr format="color" name="day_background_color"/>
+        <attr format="color" name="offset_day_text_color"/>
+        <attr format="color" name="offset_day_background_color"/>
+        <attr format="color" name="current_day_text_color"/>
+        <attr format="color" name="current_day_background_color"/>
+        <attr format="enum" name="current_day_text_style">
+            <enum name="bold" value="1"/>
+            <enum name="normal" value="0"/>
+        </attr>
+        <attr format="boolean" name="current_day_circle_enable"/>
+        <attr format="color" name="current_day_circle_color"/>
+        <attr format="color" name="selected_day_text_color"/>
+        <attr format="color" name="selected_day_background_color"/>
+        <attr format="color" name="selected_day_border_color"/>
+        <attr format="enum" name="offset_day">
+            <enum name="Sunday" value="1"/>
+            <enum name="Monday" value="2"/>
+            <enum name="Tuesday" value="3"/>
+            <enum name="Wednesday" value="4"/>
+            <enum name="Thursday" value="5"/>
+            <enum name="Friday" value="6"/>
+            <enum name="Saturday" value="7"/>
+        </attr>
+        <attr format="enum" name="starting_weekday">
+            <enum name="Sunday" value="1"/>
+            <enum name="Monday" value="2"/>
+            <enum name="Tuesday" value="3"/>
+            <enum name="Wednesday" value="4"/>
+            <enum name="Thursday" value="5"/>
+            <enum name="Friday" value="6"/>
+            <enum name="Saturday" value="7"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="FrameLinearLayout">
+        <attr format="color" name="frame_color"/>
+        <attr format="dimension" name="frame_width"/>
+        <attr format="dimension" name="frame_width_top"/>
+        <attr format="dimension" name="frame_width_bottom"/>
+        <attr format="dimension" name="frame_width_end"/>
+        <attr format="dimension" name="frame_width_start"/>
+    </declare-styleable>
+    <declare-styleable name="MultipleTriangleView">
+        <attr format="enum" name="mtr_direction">
+            <enum name="top_left" value="0"/>
+            <enum name="top_right" value="1"/>
+            <enum name="bottom_left" value="2"/>
+            <enum name="bottom_right" value="3"/>
+        </attr>
+        <attr format="dimension" name="mtr_separator_width"/>
+        <attr format="enum" name="mtr_view_direction">
+            <enum name="vertical" value="0"/>
+            <enum name="horizontal" value="1"/>
+        </attr>
+        <attr format="color" name="mtr_color"/>
+        <attr format="color" name="mtr_background_color"/>
+        <attr format="integer" name="mtr_number_of_items"/>
+    </declare-styleable>
+    <declare-styleable name="SelectedTextView">
+        <attr format="boolean" name="enable"/>
+        <attr format="color" name="selected_color"/>
+        <attr format="dimension" name="selected_padding"/>
+        <attr format="dimension" name="selected_padding_top"/>
+        <attr format="dimension" name="selected_padding_end"/>
+        <attr format="dimension" name="selected_padding_start"/>
+        <attr format="dimension" name="selected_padding_bottom"/>
+    </declare-styleable>
+</resources>

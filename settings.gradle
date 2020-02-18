@@ -1,0 +1,2 @@
+include ':app' , ':CalendarViewLib'
+rootProject.name='Aaaaan-2'
