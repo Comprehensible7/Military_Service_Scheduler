@@ -23,7 +23,7 @@
 
   @manyong-Han, @Kishi18, @koreajava
 
-10. Main Resource Link is here 
+10. Resource Link is here (Included)
 
 -- @hugomfandrade / CalendarView-Widget 
 
