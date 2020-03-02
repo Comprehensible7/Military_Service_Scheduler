@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aaaaan-2.iml" filepath="$PROJECT_DIR$/Aaaaan-2.iml" group="Aaaaan-2" />
+      <module fileurl="file://$PROJECT_DIR$/CalendarViewLib/CalendarViewLib.iml" filepath="$PROJECT_DIR$/CalendarViewLib/CalendarViewLib.iml" group="Aaaaan-2/CalendarViewLib" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Aaaaan-2/app" />
+    </modules>
+  </component>
+</project>

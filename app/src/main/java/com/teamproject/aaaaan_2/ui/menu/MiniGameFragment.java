@@ -111,7 +111,7 @@ public class MiniGameFragment extends Fragment {
         public Fragment getItem(int position) {
 
 
-                if( position == 1 ){
+                if( position == 0 ){
                 return drawing_lotsGame;
             }else{
                 return number_baseballGame;
