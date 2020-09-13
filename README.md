@@ -3,19 +3,19 @@
 
 == ToyProject ==
 
-1. Activate Login is Available 
+1. Login 
 
-2. Managing Personal Information is Available 
+2. Managing Personal Information 
 
-3. Changing Profile is Available 
+3. Profile Information 
 
-4. Playing Mini-Game is Available 
+4. Mini-Game 
 
-5. Using Due-Day is Available 
+5. Due-Day 
 
-6. Seeing Calendar is Available 
+6. Calendar 
 
-7. Emergency Contact is Available 
+7. Emergency Contact 
 
 8. Photo Copyright Comprehensible7 (Login Page, Main Page) 
 
