@@ -5,7 +5,7 @@
 
 1. Login 
 
-2. Managing Personal Information 
+2. Personal Information 
 
 3. Profile Information 
 
