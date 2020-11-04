@@ -1,4 +1,4 @@
-# 日本語
+# -- 日本語 --
 # Military_Service_Scheduler Project
 Javaを利用したToyProjectとしてApplicationを制作しました。
 
@@ -25,10 +25,10 @@ Javaを利用したToyProjectとしてApplicationを制作しました。
 - DueーDayの技能を提供しています。
 
 
-# English
+# -- English --
 # Military_Service_Scheduler Project
 
-== ToyProject ==
+== Function ==
 
 1. Login 
 
