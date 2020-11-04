@@ -28,7 +28,20 @@ Javaを利用したToyProjectとしてApplicationを制作しました。
 # -- English --
 # Military_Service_Scheduler Project
 
-== Function ==
+- We used Java to carry out Toy Project.
+
+## Objectives that created the application
+
+- In addition to basic coding, I would like to improve my technical capabilities by creating applications using the Library and API.
+
+## Development Environment
+
+- Java
+- SQLite
+- Calendar 等
+- Android Studio for Mac
+
+# Function
 
 1. Login 
 
