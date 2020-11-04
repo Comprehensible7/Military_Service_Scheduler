@@ -1,10 +1,10 @@
 # -- 日本語 --
 # Military_Service_Scheduler Project
-Javaを利用したToyProjectとしてApplicationを制作しました。
+- Javaを利用したToyProjectとしてApplicationを制作しました。
 
 ## 目的
 
-基本的なCoding意外に、LibraryとAPIを利用しながらApplicationを制作して技術的に能力を向上させたいと思いました。
+- 基本的なCoding意外に、LibraryとAPIを利用しながらApplicationを制作して技術的に能力を向上させたいと思いました。
 
 ## 開発環境
 
@@ -25,9 +25,10 @@ Javaを利用したToyProjectとしてApplicationを制作しました。
 - DueーDayの技能を提供しています。
 
 
+
+
 # -- English --
 # Military_Service_Scheduler Project
-
 - We used Java to carry out Toy Project.
 
 ## Objectives that created the application
